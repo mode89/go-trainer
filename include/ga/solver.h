@@ -63,9 +63,9 @@ namespace GA {
                 }
 
                 // Crossover
-                for ( uint32_t i = selectionCount - 1; i >= 0; -- i )
+                for ( int i = selectionCount - 1; i >= 0; -- i )
                 {
-                    for ( uint32_t j = selectionCount - 1; j >= 0; -- j )
+                    for ( int j = selectionCount - 1; j >= 0; -- j )
                     {
                         if ( i != j )
                         {
