@@ -14,6 +14,12 @@ namespace ANN {
         virtual const std::vector< double > &
         Compute( const std::vector< double > & ) = 0;
 
+        virtual unsigned
+        GetInputsCount() const = 0;
+
+        virtual unsigned
+        GetOutputsCount() const = 0;
+
         virtual
         ~INetwork() {}
     };

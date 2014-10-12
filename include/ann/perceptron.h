@@ -13,6 +13,12 @@ namespace ANN {
         virtual const std::vector< double > &
         Compute( const std::vector< double > & );
 
+        virtual unsigned
+        GetInputsCount() const { return mLayers[ 0 ].size(); }
+
+        virtual unsigned
+        GetOutputsCount() const { return mOutputs.size(); }
+
     public:
         struct Neuron
         {
