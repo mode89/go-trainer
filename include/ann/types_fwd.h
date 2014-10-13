@@ -8,6 +8,7 @@ namespace ANN {
 
     SHARED_PTR_FORWARD_TYPEDEFS( INetwork );
     SHARED_PTR_FORWARD_TYPEDEFS( Perceptron );
+    SHARED_PTR_FORWARD_TYPEDEFS( IPerceptronGeneticAlgorithmTrainer );
 
 } // namespace ANN
 

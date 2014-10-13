@@ -1,9 +1,7 @@
 #ifndef __ANN_NETWORK_H__
 #define __ANN_NETWORK_H__
 
-#include "cmn/shared_ptr_typedefs.h"
-
-#include <memory>
+#include "ann/types_fwd.h"
 #include <vector>
 
 namespace ANN {

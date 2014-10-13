@@ -45,23 +45,6 @@ namespace ANN {
     };
     SHARED_PTR_TYPEDEFS( Perceptron );
 
-    INetworkRef
-    CreatePerceptron( const Perceptron::Layers & );
-
-    class IErrorFunctor
-    {
-    public:
-        virtual double
-        operator() ( INetworkIn, uint32_t sampleIndex ) = 0;
-
-        virtual
-        ~IErrorFunctor() {}
-    };
-    SHARED_PTR_TYPEDEFS( IErrorFunctor );
-
-    INetworkRef
-    TrainPerceptron( IErrorFunctorIn, double rmsError, uint32_t sampleCount, uint32_t inputsCount, uint32_t outputsCount );
-
 } // namespace ANN
 
 #endif // __ANN_PERCEPTRON_H__
