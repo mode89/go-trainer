@@ -11,11 +11,13 @@ class Solver : public GA::Solver< double >
 {
 public:
     Solver( double result )
-        : mResult( result )
+        : GA::Solver< double >( 10 )
+        , mResult( result )
     {
 
     }
 
+protected:
     double CreateIndividual()
     {
         return static_cast< double >( rand() ) / RAND_MAX;
@@ -46,8 +48,7 @@ TEST( GA, Solve )
     const double kResult = 0.7f;
     const double kEps = 0.01f;
 
-    SolverRef solver = std::make_shared<Solver>( kResult );
-
-    double result = solver->Solve( 10, kEps );
-    ASSERT_LE( fabs( result - kResult ), kEps );
+    SolverRef solver = std::make_shared< Solver >( kResult );
+    while ( solver->Step() > kEps );
+    ASSERT_LE( fabs( solver->GetFittest() - kResult ), kEps );
 }

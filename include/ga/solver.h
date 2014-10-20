@@ -19,79 +19,83 @@ namespace GA {
         typedef std::vector< PairPhenotypeFitness > Population;
 
     public:
-        virtual ~Solver() {}
-
-        Phenotype Solve( uint32_t populationSize, double maxFitness )
+        double Step()
         {
             // Generate initial population
-
-            Population population;
-            population.resize( populationSize );
-            for ( uint32_t i = 0; i < populationSize; ++ i )
+            if ( mPopulation.empty() )
             {
-                population[i].first = CreateIndividual();
-                population[i].second = FLT_MAX;
+                mPopulation.resize( mPopulationSize );
+                for ( auto & it : mPopulation )
+                {
+                    it.first = this->CreateIndividual();
+                    it.second = FLT_MAX;
+                }
             }
 
             // Iterating
 
-            uint32_t selectionCount = static_cast< uint32_t >( sqrt( static_cast< double >( populationSize ) ) );
-            uint32_t selectionSize = selectionCount * selectionCount;
+            size_t selectionCount = static_cast< size_t >( sqrt( static_cast< double >( mPopulationSize ) ) );
+            size_t selectionSize = selectionCount * selectionCount;
 
-            PairPhenotypeFitness fittest;
-            do
+            // Selection
             {
-                // Selection
+                // Calculate fitness
+                for ( size_t i = 0; i < mPopulationSize; ++ i )
                 {
-                    // Calculate fitness
-                    for ( uint32_t i = 0; i < populationSize; ++ i )
-                    {
-                        double fitness = Fitness( population[i].first );
-                        population[i].second = fitness;
-                    }
-
-                    // Sort according to the fitness values
-                    std::sort( population.begin(), population.end(), ComparePhenotypeByFitness );
-                    fittest = population[0];
-                    if ( fittest.second <= maxFitness ) break;
-
-                    // Save several weaker individuals if selectionSize < populationSize;
-                    for ( uint32_t i = selectionCount, j = selectionSize; j < populationSize; ++ i, ++ j )
-                    {
-                        population[j] = population[i];
-                    }
+                    double fitness = Fitness( mPopulation[i].first );
+                    mPopulation[i].second = fitness;
                 }
 
-                // Crossover
-                for ( int i = selectionCount - 1; i >= 0; -- i )
+                // Sort according to the fitness values
+                std::sort( mPopulation.begin(), mPopulation.end(), ComparePhenotypeByFitness );
+                mFittest = mPopulation[0];
+
+                // Save several weaker individuals if selectionSize < mPopulationSize;
+                for ( size_t i = selectionCount, j = selectionSize; j < mPopulationSize; ++ i, ++ j )
                 {
-                    for ( int j = selectionCount - 1; j >= 0; -- j )
+                    mPopulation[j] = mPopulation[i];
+                }
+            }
+
+            // Crossover
+            for ( int i = selectionCount - 1; i >= 0; -- i )
+            {
+                for ( int j = selectionCount - 1; j >= 0; -- j )
+                {
+                    if ( i != j )
                     {
-                        if ( i != j )
-                        {
-                            PairPhenotypeFitness child;
-                            child.first = Crossover( population[i].first, population[j].first );
-                            population[ i * selectionCount + j ] = child;
-                        }
-                        else
-                        {
-                            population[ i * selectionCount + j ] = population[i];
-                        }
+                        PairPhenotypeFitness child;
+                        child.first = Crossover( mPopulation[i].first, mPopulation[j].first );
+                        mPopulation[ i * selectionCount + j ] = child;
+                    }
+                    else
+                    {
+                        mPopulation[ i * selectionCount + j ] = mPopulation[i];
                     }
                 }
+            }
 
-                // Mutation
-                for ( uint32_t i = 0; i < populationSize; ++ i )
-                {
-                    PairPhenotypeFitness mutant;
-                    mutant.first = Mutation( population[i].first );
-                    population[i] = mutant;
-                }
+            // Mutation
+            for ( size_t i = 0; i < mPopulationSize; ++ i )
+            {
+                PairPhenotypeFitness mutant;
+                mutant.first = Mutation( mPopulation[i].first );
+                mPopulation[i] = mutant;
+            }
 
-            } while ( fittest.second > maxFitness );
-
-            return fittest.first;
+            return mFittest.second;
         }
+
+        Phenotype GetFittest() const { return mFittest.first; }
+
+    public:
+        Solver( size_t populationSize )
+            : mPopulationSize( populationSize )
+        {
+        }
+
+        virtual ~Solver()
+        {}
 
     private:
         static inline bool ComparePhenotypeByFitness( const PairPhenotypeFitness & p1, const PairPhenotypeFitness & p2 )
@@ -111,6 +115,11 @@ namespace GA {
 
         virtual Phenotype
         Mutation( const Phenotype & ) = 0;
+
+    protected:
+        size_t                  mPopulationSize;
+        Population              mPopulation;
+        PairPhenotypeFitness    mFittest;
     };
 
 } // namespace GA
