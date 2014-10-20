@@ -13,15 +13,29 @@ namespace ANN {
         private GA::Solver< PerceptronRef >
     {
     public:
+        double
+        Step();
+
+    public:
         PerceptronGeneticAlgorithmTrainer(
             const FitnessOp &,
             unsigned inputsCount,
-            unsigned outputsCount );
+            unsigned outputsCount,
+            unsigned populationSize );
         ~PerceptronGeneticAlgorithmTrainer();
 
     private:
         PerceptronRef
         CreateIndividual();
+
+        double
+        Fitness( const PerceptronRef & );
+
+        PerceptronRef
+        Crossover( const PerceptronRef &, const PerceptronRef & );
+
+        PerceptronRef
+        Mutation( const PerceptronRef & );
 
     private:
         typedef std::default_random_engine RandomEngine;

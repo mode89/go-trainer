@@ -10,7 +10,7 @@ namespace ANN {
     {
     public:
         virtual const std::vector< double > &
-        Compute( const std::vector< double > & ) = 0;
+        Compute( const std::vector< double > & ) const = 0;
 
         virtual unsigned
         GetInputsCount() const = 0;

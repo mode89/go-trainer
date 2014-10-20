@@ -6,43 +6,49 @@ CMN_WARNING_DISABLE_MSVC( 4625 4626 )
 CMN_WARNING_POP
 
 #include "ann/perceptron.h"
+#include "ann/perceptron_genetic_algorithm_trainer.h"
 
 #include <cmath>
 
 using namespace ANN;
 
-class ErrorFunctor : public IErrorFunctor
+class FitnessOp
 {
 public:
     typedef std::vector< double > Sample;
-    typedef std::vector<Sample> Samples;
+    typedef std::vector< Sample > Samples;
 
-    ErrorFunctor( const Samples & inputs, const Samples & outputs )
+    FitnessOp( const Samples & inputs, const Samples & outputs )
         : mInputs( inputs )
         , mOutputs( outputs )
     {}
 
-    virtual double operator() ( const INetworkRef & nw, uint32_t sampleIndex )
+    virtual double operator() ( ConstINetworkIn nw )
     {
-        const Sample & outputs = nw->Compute( mInputs[sampleIndex] );
-
-        double rmsError = 0.0f;
-        for ( Sample::size_type i = 0; i < outputs.size(); ++ i )
+        double totalError = 0.0;
+        for ( size_t sampleIndex = 0, n = mInputs.size(); sampleIndex < n; ++ sampleIndex )
         {
-            double error = outputs[i] - mOutputs[sampleIndex][i];
-            rmsError += error * error;
+            const Sample & outputs = nw->Compute( mInputs[ sampleIndex ] ); 
+
+            double sampleError = 0.0;
+            for ( Sample::size_type i = 0; i < outputs.size(); ++ i )
+            {
+                double error = outputs[i] - mOutputs[ sampleIndex ][ i ];
+                sampleError += error * error;
+            }
+
+            totalError += sampleError;
         }
 
-        return std::sqrt( rmsError );
+        return 1.0 / std::sqrt( totalError );
     }
 
-    ErrorFunctor & operator= ( const ErrorFunctor & );
+    //ErrorFunctor & operator= ( const ErrorFunctor & );
 
 private:
     const Samples &  mInputs;
     const Samples &  mOutputs;
 };
-SHARED_PTR_TYPEDEFS( ErrorFunctor );
 
 TEST( ANN, PerceptronXor )
 {
@@ -67,7 +73,7 @@ TEST( ANN, PerceptronXor )
     layers[2][0].weights[0] = 1.0f;
     layers[2][0].weights[1] = -1.0f;
 
-    INetworkRef nw = CreatePerceptron( layers );
+    INetworkRef nw = std::make_shared< Perceptron >( layers );
 
     for ( int a = 0; a < 2; ++ a )
     {
@@ -93,15 +99,15 @@ TEST( ANN, PerceptronXor )
 
 TEST( ANN, PerceptronXorTraining )
 {
-    ErrorFunctor::Samples inputs( 4 );
-    ErrorFunctor::Samples outputs( 4 );
+    FitnessOp::Samples inputs( 4 );
+    FitnessOp::Samples outputs( 4 );
 
     for ( uint32_t a = 0; a < 2; ++ a )
     {
         for ( uint32_t b = 0; b < 2; ++ b )
         {
-            ErrorFunctor::Sample & input = inputs[ a * 2 + b ];
-            ErrorFunctor::Sample & output = outputs[ a * 2 + b ];
+            FitnessOp::Sample & input = inputs[ a * 2 + b ];
+            FitnessOp::Sample & output = outputs[ a * 2 + b ];
             input.resize( 2 );
             output.resize( 1 );
 
@@ -111,6 +117,9 @@ TEST( ANN, PerceptronXorTraining )
         }
     }
 
-    ErrorFunctorRef func = std::make_shared<ErrorFunctor>( inputs, outputs );
-    INetworkRef nw = TrainPerceptron( func, 0.01f, 4, 2, 1 );
+    FitnessOp fitnessOp( inputs, outputs );
+    IPerceptronGeneticAlgorithmTrainerRef trainer =
+        CreatePerceptronGeneticAlgorithmTrainer(
+            fitnessOp, inputs.size(), outputs.size(), 10 );
+    while ( trainer->Step() > 0.01 );
 }

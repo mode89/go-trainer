@@ -21,8 +21,11 @@ namespace ANN {
     SHARED_PTR_TYPEDEFS( IPerceptronGeneticAlgorithmTrainer );
 
     IPerceptronGeneticAlgorithmTrainerRef
-    CreatePercetpronGeneticAlgorithmTrainer(
-        const IPerceptronGeneticAlgorithmTrainer::FitnessOp & );
+    CreatePerceptronGeneticAlgorithmTrainer(
+        const IPerceptronGeneticAlgorithmTrainer::FitnessOp &,
+        unsigned inputsCount,
+        unsigned outputsCount,
+        unsigned populationSize );
 
 } // namespace ANN
 

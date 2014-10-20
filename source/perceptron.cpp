@@ -24,7 +24,7 @@ namespace ANN {
 
     }
 
-    const std::vector< double > & Perceptron::Compute( const std::vector< double > & inputs )
+    const std::vector< double > & Perceptron::Compute( const std::vector< double > & inputs ) const
     {
         // Save inputs
         for ( Neurons::size_type neuron = 0; neuron < mLayers[0].size(); ++ neuron )

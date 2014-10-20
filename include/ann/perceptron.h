@@ -11,7 +11,7 @@ namespace ANN {
     {
     public:
         virtual const std::vector< double > &
-        Compute( const std::vector< double > & );
+        Compute( const std::vector< double > & ) const;
 
         virtual unsigned
         GetInputsCount() const { return mLayers[ 0 ].size(); }
@@ -40,8 +40,8 @@ namespace ANN {
     private:
         typedef std::vector< std::vector< double > > Outputs;
 
-        Layers      mLayers;
-        Outputs     mOutputs;
+        Layers              mLayers;
+        mutable Outputs     mOutputs;
     };
     SHARED_PTR_TYPEDEFS( Perceptron );
 
