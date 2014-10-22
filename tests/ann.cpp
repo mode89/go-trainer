@@ -40,7 +40,7 @@ public:
             totalError += sampleError;
         }
 
-        return 1.0 / std::sqrt( totalError );
+        return std::sqrt( totalError );
     }
 
     //ErrorFunctor & operator= ( const ErrorFunctor & );
@@ -120,6 +120,6 @@ TEST( ANN, PerceptronXorTraining )
     FitnessOp fitnessOp( inputs, outputs );
     IPerceptronGeneticAlgorithmTrainerRef trainer =
         CreatePerceptronGeneticAlgorithmTrainer(
-            fitnessOp, inputs.size(), outputs.size(), 10 );
+            fitnessOp, inputs[0].size(), outputs[0].size(), 10 );
     while ( trainer->Step() > 0.01 );
 }

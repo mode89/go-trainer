@@ -21,6 +21,8 @@ namespace ANN {
         , mFitnessOp( fitnessOp )
         , mInputsCount( inputsCount )
         , mOutputsCount( outputsCount )
+        , mMutationProbability( 0.5f )
+        , mMutationSpeed( 0.1f )
     {
     }
 
@@ -132,7 +134,7 @@ namespace ANN {
 
     double PerceptronGeneticAlgorithmTrainer::Step()
     {
-        return 0.0;
+        return GA::Solver< PerceptronRef >::Step();
     }
 
 } // namespace ANN

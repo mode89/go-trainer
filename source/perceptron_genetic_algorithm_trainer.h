@@ -16,6 +16,12 @@ namespace ANN {
         double
         Step();
 
+        void
+        SetMutationProbability( double val ) { mMutationProbability = val; }
+
+        void
+        SetMutationSpeed( double val ) { mMutationSpeed = val; }
+
     public:
         PerceptronGeneticAlgorithmTrainer(
             const FitnessOp &,
@@ -40,7 +46,7 @@ namespace ANN {
     private:
         typedef std::default_random_engine RandomEngine;
 
-        const FitnessOp &   mFitnessOp;
+        FitnessOp           mFitnessOp;
         uint32_t            mSampleCount;
 
         uint32_t            mInputsCount;
