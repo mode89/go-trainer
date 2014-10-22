@@ -47,7 +47,10 @@ namespace GA {
                 }
 
                 // Sort according to the fitness values
-                std::sort( mPopulation.begin(), mPopulation.end(), ComparePhenotypeByFitness );
+                std::sort( mPopulation.begin(), mPopulation.end(),
+                    [] ( const PairPhenotypeFitness & p1, const PairPhenotypeFitness & p2 ) -> bool {
+                        return p1.second < p2.second;
+                    } );
                 mFittest = mPopulation[0];
 
                 // Save several weaker individuals if selectionSize < mPopulationSize;
@@ -91,17 +94,10 @@ namespace GA {
     public:
         Solver( size_t populationSize )
             : mPopulationSize( populationSize )
-        {
-        }
+        {}
 
         virtual ~Solver()
         {}
-
-    private:
-        static inline bool ComparePhenotypeByFitness( const PairPhenotypeFitness & p1, const PairPhenotypeFitness & p2 )
-        {
-            return p1.second < p2.second;
-        }
 
     protected:
         virtual Phenotype
