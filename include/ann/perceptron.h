@@ -17,7 +17,7 @@ namespace ANN {
         GetInputsCount() const { return mLayers[ 0 ].size(); }
 
         virtual unsigned
-        GetOutputsCount() const { return mOutputs.size(); }
+        GetOutputsCount() const { return mOutputs.back().size(); }
 
     public:
         struct Neuron

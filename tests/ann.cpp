@@ -74,6 +74,8 @@ TEST( ANN, PerceptronXor )
     layers[2][0].weights[1] = -1.0f;
 
     INetworkRef nw = std::make_shared< Perceptron >( layers );
+    ASSERT_TRUE( nw->GetInputsCount() == 2 );
+    ASSERT_TRUE( nw->GetOutputsCount() == 1 );
 
     for ( int a = 0; a < 2; ++ a )
     {
