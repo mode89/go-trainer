@@ -40,7 +40,9 @@ namespace GA {
             // Selection
             {
                 // Calculate fitness
-                for ( size_t i = 0; i < mPopulationSize; ++ i )
+                #pragma omp parallel
+                #pragma omp for
+                for ( int i = 0; i < static_cast< int >( mPopulationSize ); ++ i )
                 {
                     double fitness = Fitness( mPopulation[i].first );
                     mPopulation[i].second = fitness;
