@@ -12,6 +12,12 @@ namespace ANN {
     public:
         typedef std::function< double( ConstPerceptronIn ) > FitnessOp;
 
+        virtual void
+        SetMutationProbability( double ) = 0;
+
+        virtual void
+        SetMutationSpeed( double ) = 0;
+
         virtual double
         Step() = 0;
 
