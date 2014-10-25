@@ -13,6 +13,16 @@ cmake_minimum_required( VERSION 2.8 )
 
     include_directories( include )
 
+# Options
+
+    if ( ANN_OPENMP )
+        if ( MSVC )
+            add_compile_options( /openmp )
+        else()
+            message( WARNING Openmp is not enabled )
+        endif()
+    endif()
+
 # Target
 
     add_library( ann ${ANN_SOURCE_FILES} ${ANN_INCLUDE_FILES} )
