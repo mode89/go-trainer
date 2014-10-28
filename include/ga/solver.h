@@ -60,7 +60,7 @@ namespace GA {
 
             // Crossover
             std::uniform_int_distribution<> distr( 0, selection.size() - 1 );
-            for ( unsigned i = 0; i < mPopulationSize; ++ i )
+            for ( size_t i = 1; i < mPopulationSize; ++ i )
             {
                 PairPhenotypeFitness child;
                 PairPhenotypeFitness & p1 = selection[ distr( mRandomEngine ) ];
@@ -70,7 +70,7 @@ namespace GA {
             }
 
             // Mutation
-            for ( size_t i = 0; i < mPopulationSize; ++ i )
+            for ( size_t i = 1; i < mPopulationSize; ++ i )
             {
                 PairPhenotypeFitness mutant;
                 mutant.first = Mutation( mPopulation[i].first );
