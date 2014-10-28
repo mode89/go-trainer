@@ -7,6 +7,7 @@
 
 #include <algorithm>
 #include <memory>
+#include <random>
 #include <vector>
 
 namespace GA {
@@ -34,8 +35,7 @@ namespace GA {
 
             // Iterating
 
-            size_t selectionCount = static_cast< size_t >( sqrt( static_cast< double >( mPopulationSize ) ) );
-            size_t selectionSize = selectionCount * selectionCount;
+            Population selection( static_cast< size_t >( sqrt( static_cast< double >( mPopulationSize ) ) ) );
 
             // Selection
             {
@@ -55,29 +55,18 @@ namespace GA {
                     } );
                 mFittest = mPopulation[0];
 
-                // Save several weaker individuals if selectionSize < mPopulationSize;
-                for ( size_t i = selectionCount, j = selectionSize; j < mPopulationSize; ++ i, ++ j )
-                {
-                    mPopulation[j] = mPopulation[i];
-                }
+                std::copy_n( mPopulation.begin(), selection.size(), selection.begin() );
             }
 
             // Crossover
-            for ( int i = selectionCount - 1; i >= 0; -- i )
+            std::uniform_int_distribution<> distr( 0, selection.size() - 1 );
+            for ( unsigned i = 0; i < mPopulationSize; ++ i )
             {
-                for ( int j = selectionCount - 1; j >= 0; -- j )
-                {
-                    if ( i != j )
-                    {
-                        PairPhenotypeFitness child;
-                        child.first = Crossover( mPopulation[i].first, mPopulation[j].first );
-                        mPopulation[ i * selectionCount + j ] = child;
-                    }
-                    else
-                    {
-                        mPopulation[ i * selectionCount + j ] = mPopulation[i];
-                    }
-                }
+                PairPhenotypeFitness child;
+                PairPhenotypeFitness & p1 = selection[ distr( mRandomEngine ) ];
+                PairPhenotypeFitness & p2 = selection[ distr( mRandomEngine ) ];
+                child.first = Crossover( p1.first, p2.first );
+                mPopulation[i] = child;
             }
 
             // Mutation
@@ -115,6 +104,9 @@ namespace GA {
         Mutation( const Phenotype & ) = 0;
 
     protected:
+        typedef std::default_random_engine RandomEngine;
+
+        RandomEngine            mRandomEngine;
         size_t                  mPopulationSize;
         Population              mPopulation;
         PairPhenotypeFitness    mFittest;
