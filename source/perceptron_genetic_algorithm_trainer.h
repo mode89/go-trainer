@@ -22,6 +22,9 @@ namespace ANN {
         void
         SetMutationSpeed( double val ) { mMutationSpeed = val; }
 
+        PerceptronRef
+        GetFittest() { return GA::Solver< PerceptronRef >::GetFittest(); }
+
     public:
         PerceptronGeneticAlgorithmTrainer(
             const FitnessOp &,

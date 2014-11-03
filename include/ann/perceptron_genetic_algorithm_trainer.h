@@ -21,6 +21,9 @@ namespace ANN {
         virtual double
         Step() = 0;
 
+        virtual PerceptronRef
+        GetFittest() = 0;
+
         virtual
         ~IPerceptronGeneticAlgorithmTrainer() {}
     };
