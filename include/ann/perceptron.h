@@ -19,6 +19,12 @@ namespace ANN {
         virtual unsigned
         GetOutputsCount() const { return mOutputs.back().size(); }
 
+        template < class Archive > void
+        serialize( Archive & a, int version )
+        {
+            a & mLayers;
+        }
+
     public:
         struct Neuron
         {
@@ -26,6 +32,13 @@ namespace ANN {
 
             double  threshold;
             Weights weights;
+
+            template < class Archive > void
+            serialize( Archive & a, int version )
+            {
+                a & threshold;
+                a & weights;
+            }
         };
 
         typedef std::vector<Neuron> Neurons;
