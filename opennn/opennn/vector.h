@@ -761,7 +761,7 @@ void Vector<T>::initialize_sequential(void)
 {
 //    std::iota((*this).begin(), (*this).end(), 0);
 
-    for(size_t i = 0; i < size(); i++)
+    for(size_t i = 0; i < std::vector<T>::size(); i++)
     {
         (*this)[i] = (T)i;
     }
