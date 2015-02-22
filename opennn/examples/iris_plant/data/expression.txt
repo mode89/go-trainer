@@ -1,0 +1,28 @@
+scaled_sepal_length=2*(sepal_length-4.3)/(7.9-4.3)-1;
+scaled_sepal_width=2*(sepal_width-2)/(4.4-2)-1;
+scaled_petal_length=2*(petal_length-1)/(6.9-1)-1;
+scaled_petal_width=2*(petal_width-0.1)/(2.5-0.1)-1;
+y_1_1=HyperbolicTangent(-50.4142
++20.9073*scaled_sepal_length-6.26226*scaled_sepal_width+16.8696*scaled_petal_length-50.6209*scaled_petal_width);
+y_1_2=HyperbolicTangent(-28.8411
++1.17172*scaled_sepal_length-0.974975*scaled_sepal_width+5.86404*scaled_petal_length-23.3284*scaled_petal_width);
+y_1_3=HyperbolicTangent(-77.1182
+-57.6779*scaled_sepal_length-16.6496*scaled_sepal_width+185.392*scaled_petal_length+68.496*scaled_petal_width);
+y_1_4=HyperbolicTangent(-27.7247
+-10.6395*scaled_sepal_length+5.62212*scaled_sepal_width+17.9015*scaled_petal_length-19.6776*scaled_petal_width);
+y_1_5=HyperbolicTangent(49.8603
++45.1865*scaled_sepal_length-17.8741*scaled_sepal_width-26.345*scaled_petal_length-11.2328*scaled_petal_width);
+y_1_6=HyperbolicTangent(-30.791
+-15.2408*scaled_sepal_length+1.73122*scaled_sepal_width-1.99123*scaled_petal_length-42.1153*scaled_petal_width);
+non_probabilistic_iris_setosa=Linear(-1.89195
++11.1144*y_1_1-5.32096*y_1_2-9.09358e-005*y_1_3-2.84685*y_1_4+5.3386*y_1_5
++0.499881*y_1_6);
+non_probabilistic_iris_versicolour=Linear(-10.1429
+-5.58304*y_1_1+12.9225*y_1_2-0.486739*y_1_3-6.47804*y_1_4+11.0176*y_1_5
+-0.500209*y_1_6);
+non_probabilistic_iris_virginica=Linear(11.093
++31.6113*y_1_1+4.59424*y_1_2+0.486529*y_1_3-1.29434*y_1_4+24.3048*y_1_5
++0.00018527*y_1_6);
+iris_setosa= Softmax(non_probabilistic_iris_setosa,non_probabilistic_iris_versicolour,non_probabilistic_iris_virginica);
+iris_versicolour= Softmax(non_probabilistic_iris_setosa,non_probabilistic_iris_versicolour,non_probabilistic_iris_virginica);
+iris_virginica= Softmax(non_probabilistic_iris_setosa,non_probabilistic_iris_versicolour,non_probabilistic_iris_virginica);

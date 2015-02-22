@@ -1,0 +1,2015 @@
+Running neural parameters norm test case...
+test_constructor
+test_destructor
+test_calculate_performance
+test_calculate_gradient
+test_calculate_Hessian
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+void assert_true(bool, const std::string&) method failed
+..\..\opennn\tests\neural_parameters_norm_test.cpp:280
+test_to_XML
+test_from_XML
+End of neural parameters norm test case.
+
+OpenNN test suite results:
+Tests run: 1027
+Tests passed: 27
+Tests failed: 1000
+Test NOT OK. 1000 tests failed
