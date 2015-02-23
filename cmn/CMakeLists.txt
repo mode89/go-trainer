@@ -21,3 +21,8 @@ cmake_minimum_required( VERSION 2.8 )
 
     add_library( cmn ${CMN_SOURCE_FILES} ${CMN_HEADER_FILES} )
     include_directories( include )
+
+# Configuration files
+
+    configure_file( cmn-config.cmake.in
+        ${PROJECT_BINARY_DIR}/cmn-config.cmake )

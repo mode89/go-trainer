@@ -1,2 +1,0 @@
-set( CMN_INCLUDE_DIRS ${CMAKE_CURRENT_LIST_DIR}/include )
-set( CMN_LIBS cmn )
