@@ -5,47 +5,36 @@ cmake_minimum_required( VERSION 2.8 )
 
     file( GLOB TEMP go/*.cpp go/*.h )
     source_group( "go" FILES ${TEMP} )
-    list( APPEND LS_SOURCE_FILES ${TEMP} )
+    list( APPEND TRAINER_SOURCE_FILES ${TEMP} )
 
     file( GLOB TEMP gnugo/*.cpp gnugo/*.h )
     source_group( "gnugo" FILES ${TEMP} )
-    list( APPEND LS_SOURCE_FILES ${TEMP} )
+    list( APPEND TRAINER_SOURCE_FILES ${TEMP} )
 
 # Includes
 
     include_directories( . )
 
-# Options
+# Compiler options
 
-    if ( LS_OPENMP )
-        if ( MSVC )
-            add_compile_options( /openmp )
-        else()
-            message( WARNING OpenMP has not been enabled )
-        endif()
+    if ( UNIX )
+        add_compile_options(
+                -std=c++11
+            )
     endif()
-
-    add_definitions( -DBOOST_ALL_NO_LIB )
 
 # Targets
 
-    add_library( ls-lib ${LS_SOURCE_FILES} )
-    add_executable( ls main.cpp )
+    add_library( trainer-lib ${TRAINER_SOURCE_FILES} )
+    add_executable( trainer main.cpp )
 
 # Dependencies
 
-    find_package( ann CONFIG )
-    target_link_libraries( ls-lib ${ANN_LIBS} )
-    include_directories( ${ANN_INCLUDE_DIRS} )
-
-    target_link_libraries( ls boost-serialization )
-    include_directories( ${BOOST_INCLUDE_DIRS} )
-
-    find_package( cmn CONFIG )
-    target_link_libraries( ls-lib ${CMN_LIBS} )
+    find_package( cmn CONFIG REQUIRED )
+    target_link_libraries( trainer-lib ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
 
-    target_link_libraries( ls ls-lib )
+    target_link_libraries( trainer trainer-lib )
 
 # Build gnugo
 
@@ -54,6 +43,7 @@ cmake_minimum_required( VERSION 2.8 )
         COMMAND ${CMAKE_COMMAND} -E make_directory ${GNUGO_BUILD_DIR} )
     execute_process(
         COMMAND ${CMAKE_COMMAND}
+            -Wno-dev
             -DCMAKE_BUILD_TYPE=Release
             -DCMAKE_INSTALL_PREFIX=.
             -G ${CMAKE_GENERATOR}
