@@ -9,6 +9,14 @@ cmake_minimum_required( VERSION 2.8 )
     file( GLOB CMN_HEADER_FILES include/cmn/*.h )
     source_group( "include" FILES ${CMN_HEADER_FILES} )
 
+# Compiler options
+
+    if ( UNIX )
+        add_compile_options(
+                -std=c++11
+            )
+    endif()
+
 # Target
 
     add_library( cmn ${CMN_SOURCE_FILES} ${CMN_HEADER_FILES} )
