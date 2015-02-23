@@ -1,7 +1,7 @@
 #ifndef __CMN_TRACE_H__
 #define __CMN_TRACE_H__
 
-#include "cmn\platform.h"
+#include "cmn/platform.h"
 #include <cstdint>
 #include <stdexcept>
 
