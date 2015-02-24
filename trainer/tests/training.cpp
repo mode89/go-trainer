@@ -5,7 +5,6 @@ CMN_WARNING_DISABLE_MSVC( 4625 4626 )
 #include "gtest/gtest.h"
 CMN_WARNING_POP
 
-#include "ann/perceptron_genetic_algorithm_trainer.h"
 #include "gnugo/engine.h"
 #include "gnugo/game.h"
 #include "gnugo/player_ann.h"

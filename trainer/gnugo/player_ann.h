@@ -1,10 +1,14 @@
 #ifndef __GNUGO_PLAYER_ANN_H__
 #define __GNUGO_PLAYER_ANN_H__
 
-#include "ann/types_fwd.h"
 #include "gnugo/player_base.h"
+#include "opennn/vector.h"
 
 #include <vector>
+
+namespace OpenNN {
+    class NeuralNetwork;
+}
 
 namespace gnugo {
 
@@ -18,14 +22,14 @@ namespace gnugo {
         MakeMove( const go::Board & );
 
     public:
-        PlayerAnn( ANN::ConstINetworkIn, Engine & );
+        PlayerAnn( const OpenNN::NeuralNetwork &, Engine & );
         ~PlayerAnn();
 
     private:
-        typedef std::vector< double > Inputs;
+        typedef OpenNN::Vector< double > Inputs;
 
-        ANN::ConstINetworkRef   mNetwork;
-        Inputs                  mInputs;
+        const OpenNN::NeuralNetwork &   mNetwork;
+        Inputs                          mInputs;
     };
 
 } // namespace gnugo

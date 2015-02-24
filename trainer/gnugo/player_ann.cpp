@@ -1,18 +1,18 @@
-#include "ann/network.h"
 #include "cmn/trace.h"
 #include "gnugo/engine.h"
 #include "gnugo/player_ann.h"
 #include "go/board.h"
 #include "go/utils.h"
+#include "opennn/neural_network.h"
 
 #include <algorithm>
 
 namespace gnugo {
 
-    using namespace ANN;
+    using namespace OpenNN;
     using namespace go;
 
-    PlayerAnn::PlayerAnn( ConstINetworkIn network, Engine & engine )
+    PlayerAnn::PlayerAnn( const NeuralNetwork & network, Engine & engine )
         : PlayerBase( engine )
         , mNetwork( network )
     {
@@ -27,8 +27,8 @@ namespace gnugo {
         PlayerBase::Init( color, boardSize );
 
         unsigned cellCount = boardSize * boardSize;
-        CMN_ASSERT( mNetwork->GetInputsCount() == cellCount );
-        CMN_ASSERT( mNetwork->GetOutputsCount() == ( cellCount + 1 ) );
+        CMN_ASSERT( mNetwork.get_inputs_number() == cellCount );
+        CMN_ASSERT( mNetwork.get_outputs_number() == ( cellCount + 1 ) );
 
         mInputs.resize( cellCount );
     }
@@ -64,7 +64,7 @@ namespace gnugo {
 
         // Run the network
 
-            const std::vector< double > networkOutputs = mNetwork->Compute( mInputs );
+            const std::vector< double > networkOutputs = mNetwork.calculate_outputs( mInputs );
 
         // Parse network outputs
 

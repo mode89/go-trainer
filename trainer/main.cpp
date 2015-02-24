@@ -1,7 +1,4 @@
 #include "cmn/trace.h"
-#include "ann/perceptron_genetic_algorithm_trainer.h"
-#include "boost/archive/binary_oarchive.hpp"
-#include "boost/serialization/vector.hpp"
 #include "gnugo/engine.h"
 #include "gnugo/game.h"
 #include "gnugo/player.h"
