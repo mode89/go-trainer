@@ -2,6 +2,24 @@
 #include "gnugo/engine.h"
 #include "go/board.h"
 
+#include <cstring>
+
+#if CMN_LINUX
+    #include <stdio.h>
+    #include <unistd.h>
+
+    #define PARENT_WRITE_PIPE   0
+    #define PARENT_READ_PIPE    1
+
+    #define READ_FD     0
+    #define WRITE_FD    1
+
+    #define PARENT_READ_FD  ( mPipes[ PARENT_READ_PIPE ][ READ_FD ] )
+    #define PARENT_WRITE_FD ( mPipes[ PARENT_WRITE_PIPE ][ WRITE_FD ] )
+    #define CHILD_READ_FD   ( mPipes[ PARENT_WRITE_PIPE ][ READ_FD ] )
+    #define CHILD_WRITE_FD  ( mPipes[ PARENT_READ_PIPE ][ WRITE_FD ] )
+#endif // CMN_LINUX
+
 namespace gnugo {
 
     inline static const char * ColorToString( go::Color color )
@@ -37,11 +55,21 @@ namespace gnugo {
     Engine::Engine( unsigned level, unsigned boardSize, unsigned seed /* = 0 */ )
         : mLevel( level )
         , mBoardSize( boardSize )
+#if CMN_WIN32
         , mStdoutRead( nullptr )
         , mStdoutWrite( nullptr )
         , mStdinRead( nullptr )
         , mStdinWrite( nullptr )
+#endif
     {
+        std::string cmdLine =
+            std::string( " --mode gtp" ) +
+            std::string( " --level " ) + std::to_string( mLevel ) +
+            std::string( " --boardsize " ) + std::to_string( mBoardSize ) +
+            ( seed ? ( std::string( " --seed " ) + std::to_string( seed ) ) : "" ) +
+            std::string( " --never-resign" );
+
+#if CMN_WIN32
         SECURITY_ATTRIBUTES securityAttributes;
         ZeroMemory( &securityAttributes, sizeof( SECURITY_ATTRIBUTES ) );
         securityAttributes.nLength          = sizeof( SECURITY_ATTRIBUTES );
@@ -69,15 +97,7 @@ namespace gnugo {
         startupInfo.hStdInput   = mStdinRead;
         startupInfo.dwFlags     = STARTF_USESTDHANDLES;
 
-        std::string cmdLine =
-            std::string( GNUGO_EXE ) +
-            std::string( " --mode gtp" ) +
-            std::string( " --level " ) + std::to_string( mLevel ) +
-            std::string( " --boardsize " ) + std::to_string( mBoardSize ) +
-            ( seed ? ( std::string( " --seed " ) + std::to_string( seed ) ) : "" ) +
-            std::string( " --never-resign" );
-
-        success = CreateProcess( NULL, const_cast< char * >( cmdLine.data() ), NULL, NULL,
+        success = CreateProcess( GNUGO_EXE, const_cast< char * >( cmdLine.data() ), NULL, NULL,
             TRUE, 0, NULL, NULL, &startupInfo, &processInformation );
         CMN_ASSERT( success != FALSE );
 
@@ -85,10 +105,36 @@ namespace gnugo {
         CMN_ASSERT( success != FALSE );
         success = CloseHandle( processInformation.hThread );
         CMN_ASSERT( success != FALSE );
+#elif CMN_LINUX
+        pipe( mPipes[ PARENT_READ_PIPE ] );
+        pipe( mPipes[ PARENT_WRITE_PIPE ] );
+
+        if ( fork() == 0 )
+        {
+            dup2( CHILD_READ_FD, STDIN_FILENO );
+            dup2( CHILD_WRITE_FD, STDOUT_FILENO );
+
+            close( CHILD_READ_FD );
+            close( CHILD_WRITE_FD );
+            close( PARENT_READ_FD );
+            close( PARENT_WRITE_FD );
+
+            execl( GNUGO_EXE, cmdLine.c_str() );
+            exit( 0 );
+        }
+        else
+        {
+            close( CHILD_READ_FD );
+            close( CHILD_WRITE_FD );
+        }
+#else
+    #error Unsupported platform
+#endif
     }
 
     Engine::~Engine()
     {
+#if CMN_WIN32
         BOOL success = FALSE;
         success = CloseHandle( mStdoutRead );
         CMN_ASSERT( success );
@@ -98,25 +144,46 @@ namespace gnugo {
         CMN_ASSERT( success );
         success = CloseHandle( mStdinWrite );
         CMN_ASSERT( success );
+#elif CMN_LINUX
+        close( PARENT_READ_FD );
+        close( PARENT_WRITE_FD );
+#endif // CMN_WIN32
     }
+
+#if CMN_WIN32
+    #define WRITE( buffer, size ) \
+        { \
+            DWORD writtenBytes = 0; \
+            BOOL success = FALSE; CMN_UNUSED( success ); \
+            success = WriteFile( mStdinWrite, buffer, size, &writtenBytes, 0 ); \
+            CMN_ASSERT( success != FALSE ); \
+        }
+    #define READ( buffer, size, readBytes ) \
+        { \
+            BOOL success = FALSE; CMN_UNUSED( success ); \
+            success = ReadFile( mStdoutRead, buffer, size, &readBytes, 0 ); \
+            CMN_ASSERT( success != FALSE ); \
+        }
+#elif CMN_LINUX
+    #define WRITE( buffer, size ) \
+        write( PARENT_WRITE_FD, buffer, size )
+    #define READ( buffer, size, readBytes ) \
+        readBytes = read( PARENT_READ_FD, buffer, size )
+#endif
 
     std::string Engine::Execute( std::string command )
     {
         command += '\n';
 
-        DWORD writtenBytes = 0;
-        BOOL success = FALSE; CMN_UNUSED( success );
-        success = WriteFile( mStdinWrite, command.c_str(), command.size(), &writtenBytes, 0 );
-        CMN_ASSERT( success != FALSE );
+        WRITE( command.c_str(), command.size() );
 
         std::string response;
         int newLineCount = 0;
         while ( newLineCount < 2 )
         {
             char newChar;
-            DWORD readBytes;
-            success = ReadFile( mStdoutRead, &newChar, 1, &readBytes, 0 );
-            CMN_ASSERT( success != FALSE );
+            int readBytes = 0;
+            READ( &newChar, 1, readBytes );
             CMN_ASSERT( readBytes != 0 );
 
             if ( newChar != '\r' && newChar != '\n' )
