@@ -5,7 +5,10 @@
 #include "go/stone.h"
 #include <list>
 #include <string>
-#include <windows.h>
+
+#if CMN_WIN32
+    #include <windows.h>
+#endif // CMN_WIN32
 
 namespace gnugo {
 
@@ -50,10 +53,14 @@ namespace gnugo {
         unsigned    mLevel;
         unsigned    mBoardSize;
 
+#if CMN_WIN32
         HANDLE      mStdoutRead;
         HANDLE      mStdoutWrite;
         HANDLE      mStdinRead;
         HANDLE      mStdinWrite;
+#elif CMN_LINUX
+        int         mPipes[2][2];
+#endif // CMN_WIN32
     };
 
 } // namespace gnugo
