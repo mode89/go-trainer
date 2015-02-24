@@ -10,7 +10,7 @@
 #if CMN_DEBUG
     #if CMN_COMPILER_MSVC
         #define CMN_DEBUG_BREAK()     __debugbreak()
-    #elif CMN_COMPILER_MINGW
+    #elif CMN_COMPILER_GNUC
         #define CMN_DEBUG_BREAK()     asm("int $3")
     #endif // Determine the compiler
 #else
