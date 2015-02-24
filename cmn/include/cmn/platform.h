@@ -13,6 +13,10 @@
     #define CMN_COMPILER_MINGW	1
 #endif // defined( __MINGW32__ ) || defined( __MINGW64__ )
 
+#if defined( __GNUC__ )
+    #define CMN_COMPILER_GNUC   1
+#endif // defined( __GNUC__ )
+
 #if defined( _MSC_VER )
     #define CMN_COMPILER_MSVC	1
 #endif // defined( _MSC_VER )
