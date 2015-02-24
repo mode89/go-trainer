@@ -10,4 +10,6 @@ add_subdirectory( gnugo )
 add_subdirectory( gtest )
 
 add_subdirectory( opennn )
+list( APPEND CMAKE_PREFIX_PATH "${OPENNN_BINARY_DIR}" )
+
 add_subdirectory( trainer )
