@@ -5,6 +5,10 @@
     #define CMN_WIN32	1
 #endif // defined( WIN32 ) || defined( __MINGW32__ )
 
+#if defined( __linux__ )
+    #define CMN_LINUX   1
+#endif // defined( __linux__ )
+
 #if defined( __MINGW32__ ) || defined( __MINGW64__ )
     #define CMN_COMPILER_MINGW	1
 #endif // defined( __MINGW32__ ) || defined( __MINGW64__ )
