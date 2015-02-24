@@ -34,6 +34,10 @@ cmake_minimum_required( VERSION 2.8 )
     target_link_libraries( trainer-lib ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
 
+    find_package( OpenNN REQUIRED )
+    target_link_libraries( trainer-lib ${OPENNN_LIBRARIES} )
+    include_directories( ${OPENNN_INCLUDE_DIRS} )
+
     target_link_libraries( trainer trainer-lib )
 
 # Build gnugo
