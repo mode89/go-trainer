@@ -39,3 +39,8 @@ cmake_minimum_required( VERSION 2.8 )
 # Tests
 
     add_subdirectory( tests )
+
+# Configuration file
+
+    configure_file( ann-config.cmake.in
+        ${CMAKE_CURRENT_BINARY_DIR}/ann-config.cmake )
