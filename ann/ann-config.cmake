@@ -1,0 +1,3 @@
+set( ANN_ROOT ${CMAKE_CURRENT_LIST_DIR} )
+set( ANN_INCLUDE_DIRS ${ANN_ROOT}/include )
+set( ANN_LIBS ann )
