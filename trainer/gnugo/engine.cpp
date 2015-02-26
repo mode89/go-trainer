@@ -161,8 +161,10 @@ namespace gnugo {
     #define READ( buffer, size, readBytes ) \
         { \
             BOOL success = FALSE; CMN_UNUSED( success ); \
-            success = ReadFile( mStdoutRead, buffer, size, &readBytes, 0 ); \
+            DWORD dwReadBytes; \
+            success = ReadFile( mStdoutRead, buffer, size, &dwReadBytes, 0 ); \
             CMN_ASSERT( success != FALSE ); \
+            readBytes = dwReadBytes; \
         }
 #elif CMN_LINUX
     #define WRITE( buffer, size ) \
