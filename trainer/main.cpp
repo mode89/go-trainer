@@ -1,7 +1,5 @@
 #include "cmn/trace.h"
 #include "ann/perceptron_genetic_algorithm_trainer.h"
-#include "boost/archive/binary_oarchive.hpp"
-#include "boost/serialization/vector.hpp"
 #include "gnugo/engine.h"
 #include "gnugo/game.h"
 #include "gnugo/player.h"
@@ -46,9 +44,5 @@ int main( int argc, char * argv[] )
     do {
         fitness = trainer->Step();
         CMN_MSG( "%3.3f", fitness );
-
-        std::ofstream fittestOutputStream( "fittest.nw", std::ios::out | std::ios::trunc );
-        boost::archive::binary_oarchive fittestOutputArchive( fittestOutputStream );
-        fittestOutputArchive << *trainer->GetFittest();
     } while ( fitness > -70.0 );
 }
