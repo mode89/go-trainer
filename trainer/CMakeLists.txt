@@ -1,4 +1,4 @@
-project( LS )
+project( TRAINER )
 cmake_minimum_required( VERSION 2.8 )
 
 # Sources
@@ -30,7 +30,11 @@ cmake_minimum_required( VERSION 2.8 )
 
 # Dependencies
 
-    find_package( cmn CONFIG REQUIRED )
+    find_package( ann REQUIRED )
+    target_link_libraries( trainer-lib ${ANN_LIBRARIES} )
+    include_directories( ${ANN_INCLUDE_DIRS} )
+
+    find_package( cmn REQUIRED )
     target_link_libraries( trainer-lib ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
 

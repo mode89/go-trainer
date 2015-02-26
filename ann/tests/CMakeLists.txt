@@ -8,6 +8,6 @@ project( ANN_TESTS )
 
 # Dependencies
 
-    find_package( gtest CONFIG )
-    target_link_libraries( ann-tests ${GTEST_LIBS} )
+    find_package( GTest REQUIRED )
+    target_link_libraries( ann-tests ${GTEST_LIBRARIES} )
     include_directories( ${GTEST_INCLUDE_DIRS} )

@@ -29,11 +29,11 @@ cmake_minimum_required( VERSION 2.8 )
 
 # Dependencies
 
-    find_package( cmn CONFIG )
+    find_package( cmn REQUIRED )
     target_link_libraries( ann ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
 
-    find_package( ga CONFIG )
+    find_package( ga REQUIRED )
     include_directories( ${GA_INCLUDE_DIRS} )
 
 # Tests

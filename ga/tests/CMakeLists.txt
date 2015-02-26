@@ -7,10 +7,10 @@ project( GA_TESTS )
 
 # Dependencies
 
-    find_package( gtest CONFIG )
-    target_link_libraries( ga-tests ${GTEST_LIBS} )
+    find_package( GTest REQUIRED )
+    target_link_libraries( ga-tests ${GTEST_LIBRARIES} )
     include_directories( ${GTEST_INCLUDE_DIRS} )
 
-    find_package( cmn CONFIG )
+    find_package( cmn REQUIRED )
     target_link_libraries( ga-tests ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
