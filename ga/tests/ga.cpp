@@ -6,6 +6,7 @@ CMN_WARNING_DISABLE_MSVC( 4625 4626 )
 CMN_WARNING_POP
 
 #include "ga/solver.h"
+#include "ga/solver.inl"
 
 class Solver : public GA::Solver< double >
 {

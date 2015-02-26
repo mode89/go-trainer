@@ -1,4 +1,5 @@
 #include "perceptron_genetic_algorithm_trainer.h"
+#include "ga/solver.inl"
 
 namespace ANN {
 
