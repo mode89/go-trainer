@@ -14,7 +14,7 @@ list( APPEND CMAKE_PREFIX_PATH "${ANN_BINARY_DIR}" )
 
 add_subdirectory( gnugo )
 
-set( gtest_force_shared_crt ON )
+set( gtest_force_shared_crt ON CACHE BOOL "Build GTest with shared CRT" )
 add_subdirectory( gtest )
 
 add_subdirectory( trainer )
