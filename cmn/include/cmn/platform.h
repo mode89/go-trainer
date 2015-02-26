@@ -50,7 +50,7 @@
 // Overriding pragma
 #if defined( CMN_COMPILER_MSVC )
     #define CMN_PRAGMA( dirv )     __pragma( dirv )
-#elif defined( CMN_COMPILER_MINGW )
+#elif defined( CMN_COMPILER_GNUC )
     #define CMN_PRAGMA( dirv )     _Pragma( #dirv )
 #endif
 
@@ -62,7 +62,7 @@
     #define CMN_WARNING_DEFAULT_MSVC( warn )   CMN_PRAGMA( warning( default : warn ) )
     #define CMN_WARNING_DISABLE_MSVC( warn )   CMN_PRAGMA( warning( disable : warn ) )
     #define CMN_WARNING_DISABLE_GCC( warn )
-#elif defined( CMN_COMPILER_MINGW )
+#elif defined( CMN_COMPILER_GNUC )
     #define CMN_WARNING_PUSH                   CMN_PRAGMA( GCC diagnostic push )
     #define CMN_WARNING_POP                    CMN_PRAGMA( GCC diagnostic pop )
 
