@@ -23,6 +23,12 @@ cmake_minimum_required( VERSION 2.8 )
         endif()
     endif()
 
+    if ( UNIX )
+        add_compile_options(
+                -std=c++11
+            )
+    endif()
+
 # Target
 
     add_library( ann ${ANN_SOURCE_FILES} ${ANN_INCLUDE_FILES} )

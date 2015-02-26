@@ -1,5 +1,13 @@
 project( GA_TESTS )
 
+# Options
+
+    if ( UNIX )
+        add_compile_options(
+                -std=c++11
+            )
+    endif()
+
 # Target
 
     file( GLOB GA_TESTS_SOURCE_FILES *.cpp )
