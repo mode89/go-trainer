@@ -313,4 +313,10 @@ namespace gnugo {
             return -score;
     }
 
+    void Engine::Quit()
+    {
+        std::string response = Execute( "quit" );
+        CMN_ASSERT( response[0] == '=' );
+    }
+
 } // namespace gnugo

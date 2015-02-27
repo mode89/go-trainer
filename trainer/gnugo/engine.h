@@ -45,6 +45,9 @@ namespace gnugo {
         float
         GetScore( go::Color );
 
+        void
+        Quit();
+
     public:
         Engine( unsigned level, unsigned boardSize, unsigned seed = 0 );
         ~Engine();
