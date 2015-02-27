@@ -62,6 +62,7 @@ namespace gnugo {
         HANDLE      mStdinRead;
         HANDLE      mStdinWrite;
 #elif CMN_LINUX
+        int         mChildPID;
         int         mPipes[2][2];
 #endif // CMN_WIN32
     };

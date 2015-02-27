@@ -6,6 +6,7 @@
 
 #if CMN_LINUX
     #include <stdio.h>
+    #include <sys/wait.h>
     #include <unistd.h>
 
     #define PARENT_WRITE_PIPE   0
@@ -60,14 +61,22 @@ namespace gnugo {
         , mStdoutWrite( nullptr )
         , mStdinRead( nullptr )
         , mStdinWrite( nullptr )
+#elif CMN_LINUX
+        , mChildPID( -1 )
 #endif
     {
-        std::string cmdLine =
-            std::string( " --mode gtp" ) +
-            std::string( " --level " ) + std::to_string( mLevel ) +
-            std::string( " --boardsize " ) + std::to_string( mBoardSize ) +
-            ( seed ? ( std::string( " --seed " ) + std::to_string( seed ) ) : "" ) +
-            std::string( " --never-resign" );
+        std::vector< std::string > argsStr = {
+            std::string( "--mode" ), std::string( "gtp" ),
+            std::string( "--level" ), std::to_string( mLevel ),
+            std::string( "--boardsize" ), std::to_string( mBoardSize ),
+            std::string( "--never-resign" )
+        };
+
+        if ( seed )
+        {
+            argsStr.push_back( std::string( "--seed" ) );
+            argsStr.push_back( std::to_string( seed ) );
+        }
 
 #if CMN_WIN32
         SECURITY_ATTRIBUTES securityAttributes;
@@ -109,7 +118,8 @@ namespace gnugo {
         pipe( mPipes[ PARENT_READ_PIPE ] );
         pipe( mPipes[ PARENT_WRITE_PIPE ] );
 
-        if ( fork() == 0 )
+        int pid = fork();
+        if ( pid == 0 )
         {
             dup2( CHILD_READ_FD, STDIN_FILENO );
             dup2( CHILD_WRITE_FD, STDOUT_FILENO );
@@ -119,11 +129,18 @@ namespace gnugo {
             close( PARENT_READ_FD );
             close( PARENT_WRITE_FD );
 
-            execl( GNUGO_EXE, cmdLine.c_str() );
+            std::vector< const char * > argv;
+            argv.push_back( GNUGO_EXE );
+            for ( auto arg : argsStr )
+                argv.push_back( arg.c_str() );
+            argv.push_back( NULL );
+            execv( GNUGO_EXE, ( char * const * ) argv.data() );
+
             exit( 0 );
         }
         else
         {
+            mChildPID = pid;
             close( CHILD_READ_FD );
             close( CHILD_WRITE_FD );
         }
@@ -147,6 +164,11 @@ namespace gnugo {
         success = CloseHandle( mStdinWrite );
         CMN_ASSERT( success );
 #elif CMN_LINUX
+        int status = 0;
+        int res = waitpid( mChildPID, &status, 0 );
+        CMN_ASSERT( res != -1 );
+        CMN_ASSERT( status == 0 );
+
         close( PARENT_READ_FD );
         close( PARENT_WRITE_FD );
 #endif // CMN_WIN32
