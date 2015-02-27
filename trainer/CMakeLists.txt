@@ -63,7 +63,12 @@ cmake_minimum_required( VERSION 2.8 )
             --build ${GNUGO_BUILD_DIR}
             --target install
             --config Release )
-    add_definitions( -DGNUGO_EXE="${GNUGO_BUILD_DIR}/bin/gnugo.exe" )
+
+    if ( WIN32 )
+        set( GNUGO_SUFFIX .exe )
+    endif()
+
+    add_definitions( -DGNUGO_EXE="${GNUGO_BUILD_DIR}/bin/gnugo${GNUGO_SUFFIX}" )
 
 # Tests
 
