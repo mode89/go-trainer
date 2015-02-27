@@ -134,6 +134,8 @@ namespace gnugo {
 
     Engine::~Engine()
     {
+        Quit();
+
 #if CMN_WIN32
         BOOL success = FALSE;
         success = CloseHandle( mStdoutRead );
