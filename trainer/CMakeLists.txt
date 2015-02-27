@@ -23,6 +23,13 @@ cmake_minimum_required( VERSION 2.8 )
             )
     endif()
 
+    if ( UNIX )
+        add_compile_options(
+                -fopenmp
+            )
+        list( APPEND PLATFORM_LIBRARIES gomp )
+    endif()
+
 # Targets
 
     add_library( trainer-lib ${TRAINER_SOURCE_FILES} )
@@ -38,7 +45,7 @@ cmake_minimum_required( VERSION 2.8 )
     target_link_libraries( trainer-lib ${CMN_LIBS} )
     include_directories( ${CMN_INCLUDE_DIRS} )
 
-    target_link_libraries( trainer trainer-lib )
+    target_link_libraries( trainer trainer-lib ${PLATFORM_LIBRARIES} )
 
 # Build gnugo
 
