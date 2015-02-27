@@ -34,8 +34,6 @@ namespace GA {
             Population selection( static_cast< size_t >( sqrt( static_cast< double >( mPopulationSize ) ) ) );
 
             // Calculate fitness
-            #pragma omp parallel
-            #pragma omp for
             for ( int i = 0; i < static_cast< int >( mPopulationSize ); ++ i )
             {
                 double fitness = Fitness( mPopulation[i].first );
