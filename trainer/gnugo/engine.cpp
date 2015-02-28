@@ -48,6 +48,9 @@ namespace gnugo {
 
     inline static void StringToCoord( const char * str, unsigned & row, unsigned & column )
     {
+        CMN_ASSERT( str[0] >= 'A' && str[0] <= 'T' );
+        CMN_ASSERT( str[1] >= '1' && str[1] <= '9' );
+
         char rowChar = str[0];
         row     = ( rowChar > 'I' ) ? ( rowChar - 'A' - 1 ) : ( rowChar - 'A' );
         column  = std::atoi( str + 1 ) - 1;
