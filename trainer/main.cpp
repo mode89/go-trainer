@@ -6,6 +6,7 @@
 #include "gnugo/player_ann.h"
 #include "gnugo/player_random.h"
 
+#include <atomic>
 #include <fstream>
 
 const unsigned kBoardSize       = 9;
@@ -21,13 +22,24 @@ double FitnessOp( ANN::ConstPerceptronIn nw )
     #pragma omp for
     for ( int i = 0; i < kGameCount; ++ i )
     {
+        static std::atomic< unsigned > gameCount( 0 );
+        std::ofstream logFile(
+            std::string( "log/game" ) +
+            std::to_string( gameCount ++ ),
+            std::ios::trunc );
+
         gnugo::Engine       engine( 1, kBoardSize );
+        if ( logFile.is_open() )
+            engine.SetLogStream( &logFile );
+
         gnugo::PlayerAnn    blackPlayer( nw, engine );
         gnugo::Player       whitePlayer( engine );
         gnugo::Game         game( kBoardSize, blackPlayer, whitePlayer, engine );
         game.Play();
 
         fitness += engine.GetScore( go::COLOR_WHITE );
+
+        logFile.close();
     }
 
     return fitness / kGameCount;
