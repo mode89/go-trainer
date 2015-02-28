@@ -200,14 +200,14 @@ namespace gnugo {
 
     std::string Engine::Execute( std::string command )
     {
-        command += '\n';
-
-        WRITE( command.c_str(), command.size() );
         if ( mLogStream != nullptr )
         {
             *mLogStream << command << std::endl;
             mLogStream->flush();
         }
+
+        command += '\n';
+        WRITE( command.c_str(), command.size() );
 
         std::string response;
         int newLineCount = 0;
