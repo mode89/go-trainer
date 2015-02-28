@@ -230,13 +230,13 @@ namespace gnugo {
             mLogStream->flush();
         }
 
+        CMN_ASSERT( response[0] == '=' );
         return response;
     }
 
     void Engine::ClearBoard()
     {
         std::string response = Execute( "clear_board" );
-        CMN_ASSERT( response[0] == '=' );
     }
 
     bool Engine::IsLegal( go::Color color, go::Move move )
@@ -257,7 +257,6 @@ namespace gnugo {
         }
 
         std::string response = Execute( command );
-        CMN_ASSERT( response[0] == '=' );
 
         switch ( response[2] )
         {
@@ -291,7 +290,6 @@ namespace gnugo {
         }
 
         std::string response = Execute( command );
-        CMN_ASSERT( response[0] == '=' );
     }
 
     go::Move Engine::Genmove( go::Color color )
@@ -301,7 +299,6 @@ namespace gnugo {
             ColorToString( color );
 
         std::string response = Execute( command );
-        CMN_ASSERT( response[0] == '=' );
 
         go::Move retval;
 
@@ -325,7 +322,6 @@ namespace gnugo {
             ColorToString( color );
 
         std::string response = Execute( command );
-        CMN_ASSERT( response[0] == '=' );
 
         char * token = std::strtok( const_cast< char * >( response.data() + 2 ), " " );
         while ( token != NULL )
@@ -371,7 +367,6 @@ namespace gnugo {
     float Engine::GetScore( go::Color color )
     {
         std::string response = Execute( "final_score" );
-        CMN_ASSERT( response[0] == '=' );
 
         float score = std::atof( response.c_str() + 4 );
         if ( ( response[2] == 'W' && color == go::COLOR_WHITE ) ||
@@ -384,7 +379,6 @@ namespace gnugo {
     void Engine::Quit()
     {
         std::string response = Execute( "quit" );
-        CMN_ASSERT( response[0] == '=' );
     }
 
 } // namespace gnugo
