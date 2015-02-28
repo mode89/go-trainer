@@ -56,6 +56,7 @@ namespace gnugo {
     Engine::Engine( unsigned level, unsigned boardSize, unsigned seed /* = 0 */ )
         : mLevel( level )
         , mBoardSize( boardSize )
+        , mLogStream( nullptr )
 #if CMN_WIN32
         , mStdoutRead( nullptr )
         , mStdoutWrite( nullptr )
@@ -202,6 +203,11 @@ namespace gnugo {
         command += '\n';
 
         WRITE( command.c_str(), command.size() );
+        if ( mLogStream != nullptr )
+        {
+            *mLogStream << command << std::endl;
+            mLogStream->flush();
+        }
 
         std::string response;
         int newLineCount = 0;
@@ -216,6 +222,12 @@ namespace gnugo {
                 response.push_back( newChar );
             else if ( newChar == '\n' )
                 newLineCount ++;
+        }
+
+        if ( mLogStream != nullptr )
+        {
+            *mLogStream << response << std::endl;
+            mLogStream->flush();
         }
 
         return response;

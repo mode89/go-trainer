@@ -5,6 +5,7 @@
 #include "go/stone.h"
 #include <list>
 #include <string>
+#include <ostream>
 
 #if CMN_WIN32
     #include <windows.h>
@@ -48,13 +49,17 @@ namespace gnugo {
         void
         Quit();
 
+        void
+        SetLogStream( std::ostream * s ) { mLogStream = s; }
+
     public:
         Engine( unsigned level, unsigned boardSize, unsigned seed = 0 );
         ~Engine();
 
     private:
-        unsigned    mLevel;
-        unsigned    mBoardSize;
+        unsigned        mLevel;
+        unsigned        mBoardSize;
+        std::ostream *  mLogStream;
 
 #if CMN_WIN32
         HANDLE      mStdoutRead;
