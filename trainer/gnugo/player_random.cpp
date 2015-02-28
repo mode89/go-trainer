@@ -28,7 +28,8 @@ namespace gnugo {
             retval.type     = ( distType( mRandomEngine ) == 0 ) ? MOVE_TYPE_PLACE : MOVE_TYPE_PASS;
             retval.row      = distCoord( mRandomEngine );
             retval.column   = distCoord( mRandomEngine );
-        } while ( !mEngine.Play( mColor, retval ) );
+        } while ( !mEngine.IsLegal( mColor, retval ) );
+        mEngine.Play( mColor, retval );
 
         return retval;
     }

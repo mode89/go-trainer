@@ -23,6 +23,9 @@ namespace gnugo {
         ClearBoard();
 
         bool
+        IsLegal( go::Color, go::Move );
+
+        void
         Play( go::Color, go::Move );
 
         go::Move

@@ -239,7 +239,39 @@ namespace gnugo {
         CMN_ASSERT( response[0] == '=' );
     }
 
-    bool Engine::Play( go::Color color, go::Move move )
+    bool Engine::IsLegal( go::Color color, go::Move move )
+    {
+        std::string command =
+            std::string( "is_legal " ) +
+            ColorToString( color ) +
+            std::string( " " );
+
+        switch( move.type )
+        {
+        case go::MOVE_TYPE_PLACE:
+            command += CoordToString( move.row, move.column );
+            break;
+        case go::MOVE_TYPE_PASS:
+            command += "pass";
+            break;
+        }
+
+        std::string response = Execute( command );
+        CMN_ASSERT( response[0] == '=' );
+
+        switch ( response[2] )
+        {
+        case '0':
+            return false;
+        case '1':
+            return true;
+        default:
+            CMN_FAIL();
+            return false;
+        }
+    }
+
+    void Engine::Play( go::Color color, go::Move move )
     {
         std::string command =
             std::string( "play " ) +
@@ -259,7 +291,7 @@ namespace gnugo {
         }
 
         std::string response = Execute( command );
-        return response[0] == '=';
+        CMN_ASSERT( response[0] == '=' );
     }
 
     go::Move Engine::Genmove( go::Color color )

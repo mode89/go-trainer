@@ -93,8 +93,9 @@ namespace gnugo {
                     move.column = vi.second % boardSize;
                 }
 
-                if ( mEngine.Play( mColor, move ) )
+                if ( mEngine.IsLegal( mColor, move ) )
                 {
+                    mEngine.Play( mColor, move );
                     return move;
                 }
             }
