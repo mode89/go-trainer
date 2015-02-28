@@ -326,15 +326,17 @@ namespace gnugo {
 
         std::string response = Execute( command );
 
-        char * token = std::strtok( const_cast< char * >( response.data() + 2 ), " " );
-        while ( token != NULL )
+        // Cannot use strtok() as it's not thread-safe
+        for ( char * token = ( char * ) ( response.data() + 2 ); *token != 0; )
         {
             go::Stone stone;
             stone.color = color;
             StringToCoord( token, stone.row, stone.column );
             stones.push_back( stone );
 
-            token = std::strtok( NULL, " " );
+            while ( *token != ' ' && *token != 0 )
+                token ++;
+            if ( *token == ' ' ) token++;
         }
     }
 
